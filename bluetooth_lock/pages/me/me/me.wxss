@@ -1,0 +1,201 @@
+/* pages/me/me/me.wxss */
+
+.me {
+  padding: 0 30rpx;
+}
+
+/* 开锁的部分 */
+
+.me_head {
+  height: 506rpx;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: #22243b;
+  /* background: #f00; */
+}
+
+.me_head_icon {
+  font-size: 66rpx;
+  position: absolute;
+  right: 37rpx;
+  top: 29rpx;
+}
+
+.me_head_bnt {
+  width: 226rpx;
+  height: 226rpx;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.me_head_com{
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.me_head_color {
+  background-color: rgb(88, 89, 114);
+}
+
+.me_head_suo {
+  font-size: 90rpx;
+  color: #aaa;
+  /* background: #f00; */
+}
+
+.me_head_name {
+  font-size: 30rpx;
+  padding-top: 27rpx;
+  /* background: #f00; */
+}
+
+.me_head_suoNa {
+  font-size: 30rpx;
+  padding-top: 66rpx;
+}
+
+.me_head_dian {
+  padding-top: 30rpx;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.dianci {
+  border: 1rpx solid #ccc;
+  width: 58rpx;
+  height: 38rpx;
+  position: relative;
+  margin: 0 30rpx 0 18rpx;
+}
+
+.fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.dianci::after {
+  content: "";
+  position: absolute;
+  right: -6rpx;
+  bottom: 9rpx;
+  height: 20rpx;
+  width: 5rpx;
+  background: #ccc;
+}
+
+.me_head_footbnt {
+  position: absolute;
+  top: 600rpx;
+  width: 334rpx;
+  height: 82rpx;
+  background-color: #555770;
+  border-radius: 40rpx;
+  font-size: 30rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 82rpx;
+}
+
+.me_head_suoName {
+  font-size: 30rpx;
+  padding-top: 35rpx;
+}
+
+.me_head_suoNumber {
+  padding-left: 15rpx;
+  font-size: 24rpx;
+}
+
+.me_head_title {
+  position: absolute;
+  bottom: 30rpx;
+  left: 30rpx;
+  font-size: 30rpx;
+}
+
+.me_head_title:first-letter {
+  padding-right: 10rpx;
+}
+
+/* 锁列表  */
+
+.me_content {
+  padding-top: 506rpx;
+}
+
+.suoListActive {
+  /* background-color: #41426a; */
+  background-color: #f00;
+}
+
+/* 加锁目录 */
+
+.addsuo {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.addsuo_bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200rpx;
+  background: #30324f;
+  border-radius: 40rpx 40rpx 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.addsuo_bottom_icon {
+  /* background: #f00; */
+  font-size: 24rpx;
+  /* color: #5b5c91; */
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addsuo_bottom_icon view {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80rpx;
+  margin-bottom: 25rpx;
+  border: 6rpx solid #aaa;
+}
+
+.addsuo_bottom_icon view text {
+  font-size: 50rpx;
+  color: #aaa;
+}

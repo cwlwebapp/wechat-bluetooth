@@ -1,0 +1,73 @@
+/* pages/person/person/person.wxss */
+
+.person {
+  padding:0 30rpx 0 35rpx; 
+}
+
+.person_head {
+  height: 358rpx;
+  /* background: #f00; */
+  box-sizing: border-box;
+  padding-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head_log {
+  width: 152rpx;
+  height: 152rpx;
+  background-color: #ffeeed;
+  box-shadow: 0 8rpx 10rpx 0 rgba(20, 21, 43, 0.7);
+  border: solid 6rpx #fff;
+  border-radius: 50%;
+}
+
+.head_title {
+  padding-top: 45rpx;
+  font-size: 32rpx;
+  /* background: #f00; */
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.head_title_right {
+  position: absolute;
+  right: 0;
+  width: 140rpx;
+  height: 40rpx;
+  background-color: #fff;
+  box-shadow: 0 1rpx 6rpx 0 #141529;
+  border-radius: 20rpx;
+  opacity: 0.45;
+  font-size:20rpx;
+  text-align: center;
+  line-height: 40rpx;
+  color: #333333; 
+}
+
+.head_num {
+  font-size: 20rpx;
+  padding-top: 20rpx;
+  /* background: #ff0; */
+}
+.person_line{
+  height: 96rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: #f00; */
+
+}
+.message{
+  font-size: 30rpx;
+}
+.message:first-letter {
+  padding-right: 20rpx;
+  font-size: 39rpx;
+
+}
+.icon-yijianfankui-copy:first-letter{
+  font-size: 32rpx;
+}

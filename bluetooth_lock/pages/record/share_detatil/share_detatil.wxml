@@ -1,0 +1,11 @@
+<!--pages/record/share_detatil.wxml-->
+<block wx:for="{{detatil}}" wx:key="{{index}}">
+<view class="suo">
+  <image class='suo_leftIcon' src='/images/icon_manage.png'></image>
+  <text class='suo_icon iconfont icon-suo2'></text>
+  <view class='suo_rightContent'>
+    <view>公司</view>
+    keming5g
+  </view>
+</view>
+</block>

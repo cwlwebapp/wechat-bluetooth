@@ -1,0 +1,47 @@
+/* pages/me/lanyalist/layalist.wxss */
+
+/* 我是模板 */
+
+.loading {
+  width: 100%;
+  height: 55rpx;
+  /* background-color: #f00; */
+  text-align: center;
+}
+
+.template {
+  height: 120rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  border-radius: 5rpx;
+  padding: 0 30rpx 0 40rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.active {
+  background-color: #41426a;
+}
+
+.template_left {
+  font-size: 24rpx;
+}
+
+.template_right {
+  font-size: 30rpx;
+}
+
+.lanyalist_bnt {
+  border-top:1rpx solid #aaa;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #303250;
+  position: fixed;
+  bottom: 0;
+  color: #aaa;
+  font-size: 30rpx;
+}

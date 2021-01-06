@@ -1,0 +1,60 @@
+/* pages/manage/transfer/transfer.wxss */
+
+.transfer_head {
+  height: 86rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22rpx;
+}
+
+.icon-youkuohao {
+  font-size: 30rpx;
+}
+
+icon-youkuohao::after {
+  font-size: 35rpx;
+}
+
+.transfer_content {
+  height: 176rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx 0 40rpx;
+  margin-bottom: 22rpx;
+}
+
+.transfer_content_left {
+  display: flex;
+  font-size: 30rpx;
+}
+
+.transfer_content_img {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.transfer_content_title {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100rpx;
+  padding-left: 28rpx;
+}
+
+.transfer_content_right {
+  width: 133rpx;
+  height: 51rpx;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  text-align: center;
+  line-height: 51rpx;
+  font-size: 24rpx;
+}

@@ -1,0 +1,29 @@
+<!--bluetooth/bluetooth.wxml-->
+<!-- 操作蓝牙适配器的方法 -->
+<button bindtap='openBluetoothAdapter'>初始化蓝牙</button>
+<button bindtap='closeBluetoothAdapter'>关闭蓝牙</button>
+<button bindtap='getBluetoothAdapterState'>获取本机蓝牙状态</button>
+<button bindtap='onBluetoothAdapterStateChange'>监听本机蓝牙状态变化</button>
+<!-- 链接蓝牙前的操作 -->
+<button>**********************************************************************************</button>
+<button bindtap='startBluetoothDevicesDiscovery'>开始搜索蓝牙</button>
+<button binbtap="stopBluetoothDevicesDiscovery">停止搜寻蓝牙设配</button>
+<button bindtap='getBluetoothDevices'>获取已发现的蓝牙设配</button>
+<button bindtap='onBluetoothDeviceFound'>发现新设配</button>
+<!-- 连接蓝牙操作 -->
+<button>**********************************************************************************</button>
+<button bindtap='createBLEConnection'>连接蓝牙</button>
+<button bindtap='closeBLEConnection'>关闭低功耗蓝牙</button>
+<!-- 蓝牙连接后的状态 -->
+<button>**********************************************************************************</button>
+<button bindtap='getConnectedBluetoothDevices'>根据uuid获取处于已连接状态的设备</button>
+<button bindtap='getBLEDeviceServices'>获取所有设配</button>
+<button bindtap='getBLEDeviceCharacteristics'>获取蓝牙设备所有 characteristic(特征值)</button>
+
+<button bindtap='notifyBLECharacteristicValueChange'>启用低功耗蓝牙设备特征值变化时的 notify 功能</button>
+<button bindtap='onBLECharacteristicValueChange'>监听低功耗蓝牙设备的特征值变化</button>
+<button bindtap='readBLECharacteristicValue'>读取低功耗蓝牙设备的特征值的二进制数据值</button>
+<button bindtap='writeBLECharacteristicValue'>向蓝牙设配写入数据</button>
+<!-- 蓝牙功能 -->
+<button>**********************************************************************************</button>
+<button bindtap='onBLEConnectionStateChange'>监听低功耗蓝牙连接的错误事件</button>

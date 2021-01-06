@@ -1,0 +1,43 @@
+/* pages/manage/offline/offline.wxss */
+
+.offline {
+  height: 120rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  border-radius: 10rpx;
+  padding: 0 30rpx 0 60rpx;
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.passward::after {
+  content: '好';
+  color: transparent;
+}
+
+.input {
+  width: 480rpx;
+  height: 55rpx;
+  background-color: #30324f;
+  border-radius: 2rpx;
+  border: solid 2rpx #aaa;
+  margin-left: 26rpx;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+}
+
+.offline_bnt {
+  width: 100%;
+  height: 100rpx;
+  background-color: #30324f;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

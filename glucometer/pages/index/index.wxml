@@ -1,0 +1,10 @@
+<button bindtap="openBluetoothAdapter">初始化蓝牙</button>
+<block wx:for="{{lanyanlist}}" wx:key="index">
+    <view class="template {{item.active?'active':''}}" data-index="{{index}}" bindtap='addsuo'>
+      <view class='template_left'>
+        <view>{{item.name}}</view>{{item.deviceId}}</view>
+      <text class='template_right'>信号{{utils.max(0, item.RSSI + 100)}}%</text>
+    </view>
+  </block>
+
+  <button bindtap="notifyBLECharacteristicValueChange">notifyBLECharacteristicValueChange</button>

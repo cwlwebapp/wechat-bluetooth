@@ -1,0 +1,41 @@
+/* pages/record/share_detatil.wxss */
+
+.suo {
+  height: 120rpx;
+  background-color: #303250;
+  box-shadow: 0rpx 8rpx 54rpx 0rpx rgba(9, 12, 51, 0.18);
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 96rpx;
+  margin-bottom: 30rpx;
+}
+
+.active {
+  background-color: #41426a;
+
+}
+
+.suo_leftIcon {
+  width: 96rpx;
+  height: 96rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15rpx;
+  /* background: #f00; */
+}
+
+.suo_icon {
+  font-size: 52rpx;
+}
+
+.suo_rightContent {
+  padding-left: 40rpx;
+  font-size: 24rpx;
+}
+
+.suo_rightContent view {
+  font-size: 30rpx;
+}

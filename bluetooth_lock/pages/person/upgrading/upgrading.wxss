@@ -1,0 +1,63 @@
+/* pages/person/upgrading/upgrading.wxss */
+
+.upgrading_head {
+  height: 492rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #f00; */
+  font-size: 36rpx;
+}
+
+.upgrading_head_icon {
+  width: 180rpx;
+  height: 180rpx;
+  background-color: #aaa;
+  border: solid 2rpx #f8f8f8;
+  margin-bottom: 50rpx;
+}
+
+.upgrading_head_title {
+  margin-top: 22rpx;
+  font-size: 24rpx;
+}
+
+.upgrading_middle {
+  height: 258rpx;
+  width: 100%;
+  padding-left: 115rpx;
+}
+
+.upgrading_middle_line {
+  height: 92rpx;
+  width: 594rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32rpx;
+  border-bottom: 1rpx solid rgb(63, 64, 83);
+}
+
+.new::after {
+  content: "NEW";
+  width: 57rpx;
+  height: 28rpx;
+  background-image: linear-gradient(#aaa, #aaa), linear-gradient(#aaa, #aaa);
+  border-radius: 14rpx;
+  font-size: 20rpx;
+  color: #24263d;
+  text-align: center;
+  line-height: 28rpx;
+  margin-left: 20rpx;
+}
+
+.upgrading_foot {
+  margin-top: 338rpx;
+  font-size: 24rpx;
+  text-align: center;
+}
+
+.upgrading_foot_detail {
+  margin-top: 19rpx;
+}

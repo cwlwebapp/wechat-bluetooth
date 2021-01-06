@@ -1,0 +1,90 @@
+/* pages/me/login/login.wxss */
+
+.login {
+  padding-top: 85rpx;
+  /* background: #ff0; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_content {
+  display: flex;
+  align-items: center;
+  height: 112rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.login_place {
+  width: 408rpx;
+  height: 54rpx;
+  background-color: #30324f;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+  margin-left: 62rpx;
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  right: 30rpx;
+  top: 50%;
+  margin-top: -21rpx;
+  font-size: 42rpx;
+  z-index: 6;
+}
+
+.login_bnt {
+  margin-top: 70rpx;
+  width: 557rpx;
+  height: 80rpx;
+  background-color: #30324f;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_foot {
+  width: 557rpx;
+  /* background: #f00; */
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #999;
+  font-size: 30rpx;
+}
+
+.login_weixin {
+  margin-top: 310rpx;
+  width: 557rpx;
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+}
+
+.weixin {
+  height: 72rpx;
+  line-height: 72rpx;
+  background-color: #24263D;
+}
+
+.icon-weixin {
+  font-size: 72rpx;
+  color: #09c115;
+}
+
+.login_weixin_middle {
+  height: 83rpx;
+  line-height: 83rpx;
+}
+
+.login_weixin_foot::after {
+  content: "《用户协议》";
+  color: #3e49c2;
+}

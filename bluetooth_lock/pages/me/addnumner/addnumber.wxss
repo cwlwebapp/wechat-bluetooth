@@ -1,0 +1,48 @@
+/* pages/me/addnumner/addnumber.wxss */
+
+.addnumner {
+  padding: 95rpx 82rpx 0 82rpx;
+}
+
+.addnumner_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #999;
+  font-size: 30rpx;
+  margin-bottom: 57rpx;
+}
+
+.input {
+  width: 434rpx;
+  height: 55rpx;
+  background-color: #30324f;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  margin-left: 30rpx;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+  position: relative;
+}
+
+.yan {
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+  z-index: 6;
+  font-size: 46rpx;
+  /* background: #f00; */
+}
+
+.bnt {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  background-color: #30324f;
+  text-align: center;
+  line-height: 100rpx;
+  color: #aaa;
+  font-size: 30rpx;
+}

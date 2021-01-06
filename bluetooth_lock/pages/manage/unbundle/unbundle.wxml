@@ -1,0 +1,47 @@
+<!--pages/manage/unbundle/unbundle.wxml-->
+<view class='unbundle'>
+  <view class='me_head'>
+    <!-- <text class='me_head_icon iconfont icon-jia' bindtap='addSuo'></text> -->
+    <view class='me_head_bnt' bindtap='openSuo'>
+      <text wx:if="{{lock!=4}}" class='me_head_suo iconfont icon-suo'></text>
+      <text wx:else class='me_head_suo iconfont icon-kaisuo'></text>
+      <text wx:if="{{lock==1}}" class='me_head_name'>连接</text>
+      <text wx:elif="{{lock==2}}" class='me_head_name'>连接中</text>
+      <text wx:elif="{{lock==3}}" class='me_head_name'>已连接</text>
+      <text wx:elif="{{type==1&&lock==4}}" class='me_head_name'>开锁中</text>
+      <text wx:elif="{{type==1&&lock==5}}" class='me_head_name'>开锁完成</text>
+      <text wx:elif="{{type==2||type==4&&lock==4}}" class='me_head_name'>删除中</text>
+      <text wx:elif="{{type==2||type==4&&lock==5}}" class='me_head_name'>删除完成</text>
+      <text wx:elif="{{type==3||type==5&&lock==4}}" class='me_head_name'>添加中</text>
+      <text wx:elif="{{type==3||type==5&&lock==5}}" class='me_head_name'>添加完成</text>
+      <text wx:elif="{{type==6&&lock==4}}" class='me_head_name'>修改中</text>
+      <text wx:elif="{{type==6&&lock==5}}" class='me_head_name'>修改完成</text>
+      <text wx:elif="{{type==7&&lock==4}}" class='me_head_name'>修改中</text>
+      <text wx:elif="{{type==7&&lock==5}}" class='me_head_name'>修改完成</text>
+    </view>
+    <text wx:if="{{lock==3||lock==4||lock==5}}" class='me_head_suoName'>公司的锁</text>
+    <text wx:if="{{lock==3||lock==4||lock==5}}" class='me_head_suoNumber'>iman163361</text>
+    <text wx:if="{{lock==1}}" class='me_head_suoName'>提示:请确保锁是唤醒状态!</text>
+    <!-- <view class='me_head_title iconfont icon-jia' bindtap='addSuo'>设备列表</view> -->
+    <image wx:if="{{type==3&&lock==3||type==3&&lock==4||type==3&&lock==5}}" class='icon_image' src='/images/fingerprint.png'></image>
+    <view class='ic_input' wx:if="{{type==6&&lock==3||type==6&&lock==4||type==6&&lock==5}}">
+      <view class='ic_input_head'>
+        <text class='ic_input_heads'>新密码</text>:
+        <input class='ic_input_place' placeholder='请输入离线密码!'></input>
+      </view>
+      <view class='ic_input_head'>确认密码:
+        <input class='ic_input_place' placeholder='请输入离线密码!'></input>
+      </view>
+    </view>
+  </view>
+  <view class='unbundle_height'></view>
+  <button wx:if="{{lock==1||lock==2}}" class='unbundle_bnt' bindtap='openSuo'>连接蓝牙</button>
+  <button wx:if="{{type==1&&lock==3||type==1&&lock==4||type==1&&lock==5}}" class='unbundle_bnt' bindtap='unbind'>开锁</button>
+  <button wx:if="{{type==2&&lock==3||type==2&&lock==4||type==2&&lock==5}}" class='unbundle_bnt' bindtap='unbind'>删除指纹</button>
+  <button wx:if="{{type==3&&lock==3||type==3&&lock==4||type==3&&lock==5}}" class='unbundle_bnt' bindtap='unbind'>添加指纹</button>
+  <button wx:if="{{type==4&&lock==3||type==4&&lock==4||type==4&&lock==5}}" class='unbundle_bnt' bindtap='unbind'>删除IC卡</button>
+  <button wx:if="{{type==5&&lock==3||type==5&&lock==4||type==5&&lock==5}}" class='unbundle_bnt' bindtap='unbind'>添加IC卡</button>
+  <button wx:if="{{type==6&&lock==3||type==6&&lock==4||type==6&&lock==5}}" class='unbundle_bnt' bindtap='unbind'>修改键盘密码</button>
+  <button wx:if="{{type==7&&lock==3||type==7&&lock==4||type==7&&lock==5}}" class='unbundle_bnt' bindtap='unbind'>解除绑定</button>
+
+</view>

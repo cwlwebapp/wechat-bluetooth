@@ -1,0 +1,13 @@
+<!--pages/manage/transferdetail/transferdetail.wxml-->
+<view class='transferdetail'>
+  <view class='transferdetail_phone'>
+    手机号:
+    <input class='phone' placeholder='请输入对方的手机号!'></input>
+  </view>
+  <view class='transferdetail_phone'>
+    验证码:
+    <input class='code' placeholder='对方手机验证码!'></input>
+    <view class='getcode'>获取验证码</view>
+  </view>
+<button class='confir'>确定转让</button>
+</view>

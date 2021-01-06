@@ -1,0 +1,16 @@
+<!--pages/manage/manage/manage.wxml-->
+<view class='manage'>
+  <block wx:for="{{manageList}}" wx:key="{{index}}">
+    <view class='manage_line' data-icon='{{item.icon}}' bindtap='manage'>
+      <image wx:if="{{item.icon}}" class='manage_icon' src='/images/icon_manage.png'></image>
+      <view class='manage_left'>
+        <text class='manage_suo iconfont icon-suo'></text>
+        <view>
+          {{item.title}}
+          <view class='manage_left_bottom'>{{itme.name}}</view>
+        </view>
+      </view>
+      <text class='manage_bnt'>管理</text>
+    </view>
+  </block>
+</view>

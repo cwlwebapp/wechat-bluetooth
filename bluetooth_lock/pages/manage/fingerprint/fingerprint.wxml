@@ -1,0 +1,20 @@
+<!--pages/manage/fingerprint/fingerprint.wxml-->
+<!-- 模板模型 -->
+  <modal id="modal" hidden="{{ishidden}}" title="提示" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">  
+      <input type='text' bindinput='bindinput' placeholder="请输入指纹名" auto-focus/>
+  </modal>
+  
+<view class='fingerprint'>
+  <text class='fingerprinttotal'>指纹总数:<text>20</text></text>
+  <text class='addfingerprint'>已录入:<text>{{fingerprint.length}}</text></text>
+</view>
+<block wx:for="{{fingerprint}}" wx:key="{{index}}">
+  <view class='content'>
+    <text class='iconfont icon-zhiwen'>{{item.title}}</text>
+    <view>
+      <text class='content_bnt' bindtap='rechristen'>重命名</text>
+      <text class='content_bnt' bindtap='remove'>删除</text>
+    </view>
+  </view>
+</block>
+<button class='jionfingerprint' bindtap='add'>添加指纹</button>

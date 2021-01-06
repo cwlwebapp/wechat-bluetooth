@@ -1,0 +1,19 @@
+<!--pages/manage/user/user.wxml-->
+<view class='user'>
+  <block wx:for="{{user}}" wx:key="{{index}}">
+    <view class='user_line' bindtap='jurisdiction'>
+      <image wx:if="{{item.icon}}" class='user_line_image' src='/images/icon_manage.png'></image>
+      <view class='user_left'>
+        <image class='user_left_img'></image>
+        <view class='user_left_title'>
+          {{item.title}}
+          <view>{{item.phone}}</view>
+        </view>
+      </view>
+      <text class='user_right'>管理</text>
+    </view>
+  </block>
+
+
+
+</view>

@@ -1,0 +1,26 @@
+<!--pages/person/upgrading/upgrading.wxml-->
+<view class='upgrading'>
+  <view class='upgrading_head'>
+    <image class='upgrading_head_icon' src=''></image>
+    <text>智能锁</text>
+    <text class='upgrading_head_title'>version1.0.3</text>
+  </view>
+  <view class='upgrading_middle'>
+    <view class='upgrading_middle_line'>
+      功能介绍
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+    <view class='upgrading_middle_line'>
+      投诉
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+    <view class='upgrading_middle_line'>
+      <text class='new'>版本更新</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+  </view>
+  <view class='upgrading_foot'>
+    版权信息
+    <view class='upgrading_foot_detail'>coryright@2019智能锁app.All rights reserved</view>
+  </view>
+</view>

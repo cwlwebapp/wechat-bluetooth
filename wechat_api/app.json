@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "bluetooth/bluetooth",
+    "index/index",
+    "open/open"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

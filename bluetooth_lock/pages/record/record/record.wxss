@@ -1,0 +1,77 @@
+/* pages/record/record.wxss */
+
+.record_title {
+  height: 64rpx;
+  background-color: #1b1d32;
+  text-align: center;
+  line-height: 64rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+.record_head {
+  height: 150rpx;
+  border-bottom: 2rpx solid #5b5c91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.record_head_title {
+  width: 600rpx;
+  height: 80rpx;
+  background-color: #1b1d32;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2rpx #aaa;
+}
+
+.record_head_jilu {
+  width: 33%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color: #aaa;
+}
+
+.active {
+  background-color: #aaa;
+  color: #333;
+}
+
+.record_content {
+  height: 122rpx;
+  background-color: rgba(36, 38, 61, 0.5);
+  border-bottom: 2rpx solid #5b5c91;
+  padding-left: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.record_content_left {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.record_content_right {
+  padding-left: 15rpx;
+  height: 100rpx;
+  font-size: 24rpx;
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.record_content_describe {
+  width: 500rpx;
+  /* background: #f00; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

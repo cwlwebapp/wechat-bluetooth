@@ -1,0 +1,3 @@
+<!--pages/manage/superfingerprint/superfingerprint.wxml-->
+<view class='superfingerprint'>超级指纹未录入 <text class='wenhao iconfont icon-wenhao'></text></view>
+<view class='superfinger_bnt'>录入指纹</view>

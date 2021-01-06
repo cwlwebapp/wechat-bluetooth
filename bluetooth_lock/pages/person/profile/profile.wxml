@@ -1,0 +1,38 @@
+<!--pages/person/profile/profile.wxml-->
+<view class='profile'>
+  <view class='profile_head head' bindtap='addimg'>
+    <text>头像</text>
+    <view class='profile_head_right'>
+      <image class='profile_img' src="{{profile.headimg}}"></image>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+  </view>
+  <view class='profile_head' bindtap='addname'>
+    <text>昵称</text>
+    <view class='profile_head_right'>
+      <text>{{profile.name}}</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+  </view>
+  <view class='profile_head'>
+    <text>手机号</text>
+    <view class='profile_head_right'>
+      <text>{{profile.phone}}</text>
+    </view>
+  </view>
+  <!-- 弹框 -->
+  <view class='toast' wx:if="{{istoast}}">
+    <!-- <view class='toast_content'>
+      <text>提示</text>
+      <input class='toast_input'  type='text' bindinput="bindinput" placeholder="请输入昵称!"></input>
+      <view class='toast_bnt'>
+        <text class='toast_but' bindtap="cancal">取消</text>
+        <text class='toast_but' bindtap='confirm'>确定</text>
+      </view>
+    </view> -->
+    <modal title="提示" confirm-text="确定" cancel-text="取消" bindcancel="cancal" bindconfirm="confirm">
+      <input type='text' placeholder="请输入昵称!" bindinput="bindinput" auto-focus/>
+    </modal>
+  </view>
+
+</view>

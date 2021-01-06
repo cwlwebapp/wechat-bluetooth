@@ -1,0 +1,8 @@
+
+{
+  "navigationBarTitleText": "我的锁",
+  "usingComponents": {
+    "suoList": "/component/module/suoList/suoList"
+  }
+ 
+}

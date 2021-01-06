@@ -1,0 +1,60 @@
+/* pages/manage/fingerprint/fingerprint.wxss */
+
+.fingerprint {
+  height: 120rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  display: flex;
+  align-items: center;
+  padding: 0 42rpx 0 52rpx;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.fingerprinttotal::after {
+  content: "";
+  padding: 0 95rpx 0 15rpx;
+}
+
+.addfingerprint::after {
+  content: "";
+  padding: 0 95rpx 0 15rpx;
+}
+
+.content {
+  height: 120rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  display: flex;
+  align-items: center;
+  padding: 0 42rpx 0 52rpx;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+  justify-content: space-between;
+}
+
+.icon-zhiwen::after {
+  padding-left: 15rpx;
+}
+
+.content_bnt {
+  width: 105rpx;
+  height: 39rpx;
+  border-radius: 19rpx;
+  border: solid 2rpx #aaa;
+  display: inline-block;
+  text-align: center;
+  line-height: 39rpx;
+  margin-right: 16rpx;
+}
+
+.jionfingerprint {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  background-color: #30324f;
+  color: #aaa;
+  font-size: 30rpx;
+}

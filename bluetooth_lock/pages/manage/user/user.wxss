@@ -1,0 +1,52 @@
+/* pages/manage/user/user.wxss */
+
+.user_line {
+  height: 172rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 45rpx 0 111rpx;
+  margin-bottom: 24rpx;
+}
+
+.user_line_image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 125rpx;
+  height: 123rpx;
+  /* background: #f00; */
+}
+
+.user_left {
+  display: flex;
+  font-size: 30rpx;
+}
+
+.user_left_img {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.user_left_title {
+  padding-left: 15rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user_right {
+  width: 133rpx;
+  height: 48rpx;
+  border-radius: 24rpx;
+  border: solid 2rpx #aaa;
+  display: inline-block;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 48rpx;
+}

@@ -1,0 +1,22 @@
+<!--pages/manage/normanageList/normanageList.wxml-->
+<modal id="modal" hidden="{{ishidden}}" title="提示" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+  <input type='text' bindinput='bindinput' placeholder="请输入锁的备注" auto-focus/>
+</modal>
+<view class='normanageList' bindtap='rechristen'>
+  修改备注
+  <text class='iconfont icon-youkuohao'>家里的锁</text>
+</view>
+<view class='normanageList'>
+  删除绑定
+  <text class='iconfont icon-youkuohao'></text>
+</view>
+<view class='normanageList'>
+  管理信息
+  <text class='iconfont icon-youkuohao'></text>
+</view>
+<!-- <view class='normanageList_foot'>
+  蓝牙开锁 已到期
+</view> -->
+<view class='normanageList_foot'>
+  蓝牙开锁 1天20小时18分后到期
+</view>

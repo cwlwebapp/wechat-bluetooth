@@ -1,0 +1,12 @@
+<!--pages/manage/iclist/iclist.wxml-->
+<view class='fingerprint'>
+  <text class='fingerprinttotal'>IC卡总数:<text>6</text></text>
+  <text class='addfingerprint'>已录入:<text>{{fingerprint.length}}</text></text>
+</view>
+<block wx:for="{{fingerprint}}" wx:key="{{index}}">
+  <view class='content' bindtap='delate'>
+    <text>{{item.title}}</text>
+    <text class='content_bnt'>删除</text>
+  </view>
+</block>
+<button class='jionfingerprint' bindtap='add'>添加IC卡</button>

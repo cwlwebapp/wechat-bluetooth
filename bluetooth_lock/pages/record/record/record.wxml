@@ -1,0 +1,27 @@
+<!--pages/record/record.wxml-->
+<view class='record'>
+  <view class='record_title' bindtap='share_detail'>家里的锁 ></view>
+  <view class='record_head'>
+    <view class='record_head_title'>
+      <view class="{{active==1?'record_head_jilu active':'record_head_jilu'}}" data-index='1' bindtap='jump'>使用记录</view>
+      <view class="{{active==2?'record_head_jilu active':'record_head_jilu'}}" data-index='2' bindtap='jump'>分享记录</view>
+      <view class="{{active==3?'record_head_jilu active':'record_head_jilu'}}" data-index='3' bindtap='jump'>报警记录</view>
+    </view>
+  </view>
+  <block wx:for="{{arr}}" wx:key="{{index}}">
+    <view class='record_content'>
+      <image class='record_content_left' src='{{item.imagesrc}}'></image>
+      <view class='record_content_right'>
+        {{item.title}}
+        <view class='record_content_describe'>{{item.describe}}</view>
+      </view>
+    </view>
+  </block>
+  <!-- <view class='record_content'>
+    <image class='record_content_left' src=''></image>
+    <view class='record_content_right'>
+      漂流的许愿瓶
+      <view class='record_content_describe'>2018-12-17 8:52打开了家门2018-12-17 8:52打开了家门2018-12-17 8:52打开了家门</view>
+    </view>
+  </view> -->
+</view>

@@ -1,0 +1,41 @@
+.authorizedPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.authorizedPage image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.authorizedPage view.title{
+  font-size: 36rpx;
+	color: #161616;
+  padding: 30rpx 0;
+}
+.authorizedPage view.getInfo{
+  border-top: 1rpx solid #d9d9d9;
+  width: 100%;
+  text-align: center;
+  padding: 30rpx 0;
+  font-size: 30rpx;
+	color: #bbbbbb;
+}
+.authorizedPage view.getInfo text {
+  font-size: 30rpx;
+	color: #bbbbbb;
+  margin-right: 10rpx;
+}
+.authorizedPage button {
+  margin-top: 200rpx;
+  background-color: #1aad19;
+  width: 90%;
+  color: #FFF;
+  border-radius: 38rpx;
+  height: 77rpx;
+  line-height: 77rpx;
+}

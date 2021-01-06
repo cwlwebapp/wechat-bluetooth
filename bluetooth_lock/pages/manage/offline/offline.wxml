@@ -1,0 +1,10 @@
+<!--pages/manage/offline/offline.wxml-->
+<view class='offline'>
+  <text class='passward'>新密码:</text>
+  <input class='input' placeholder='请输入新密码!'></input>
+</view>
+<view class='offline'>
+  <text>确认密码:</text>
+  <input class='input' placeholder='请输入新密码!'></input>
+</view>
+<view class='offline_bnt'>提交</view>

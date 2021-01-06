@@ -1,0 +1,96 @@
+/* pages/me/register/register.wxss */
+
+.changePassword {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 89rpx;
+}
+
+.changePassword_line {
+  height: 112rpx;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.place {
+  color: #22243b;
+}
+
+.changePassword_left {
+  padding-right: 33rpx;
+}
+
+.input {
+  width: 228rpx;
+  height: 54rpx;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+  color: #999;
+}
+
+.bnt {
+  width: 172rpx;
+  height: 54rpx;
+  background-color: #30324f;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  color: #999;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 54rpx;
+  margin-left: 17rpx;
+}
+
+.passward {
+  width: 419rpx;
+  height: 54rpx;
+  background-color: #30324f;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+  position: relative;
+}
+
+.yan {
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+  z-index: 6;
+  font-size: 46rpx;
+  /* background: #f00; */
+}
+
+.register_content {
+  height: 114rpx;
+  line-height: 114rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.register_content::after {
+  content: "《用户协议》";
+  color: #3e49c2;
+}
+
+.confirm {
+  width: 538rpx;
+  height: 75rpx;
+  background-color: #30324f;
+  border-radius: 10rpx;
+  color: #aaa;
+  font-size: 30rpx;
+  line-height: 75rpx;
+}
+
+.but {
+  margin-top: 46rpx;
+}

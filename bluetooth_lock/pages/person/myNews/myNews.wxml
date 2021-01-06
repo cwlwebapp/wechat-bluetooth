@@ -1,0 +1,27 @@
+<!--pages/person/myNews/myNews.wxml-->
+<view class='myNews'>
+  <block wx:for="{{mynews}}" wx:key="{{index}}">
+    <view class='myNews_line'>
+      <view class='myNews_left'>
+        系统消息
+        <view class='myNews_title'>系统今天晚上12点到3点升级系统今天晚上12点到3点升级系统今天晚上12点到3点升级系统今天晚上12点到3点升级系统今天晚上12点到3点升级</view>
+      </view>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+  </block>
+  <view class='myNews_line'>
+    <view class='myNews_left'>
+      门店消息
+      <view class='myNews_title'>最后走的锁门</view>
+
+    </view>
+    <text class='iconfont icon-youkuohao'></text>
+  </view>
+  <view class='myNews_line'>
+    <view class='myNews_left'>
+      公司消息
+      <view class='myNews_title'>最后走的锁门</view>
+    </view>
+    <text class='iconfont icon-youkuohao'></text>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/me/addnumner/addnumber.wxml-->
+<view class='addnumner'>
+  <view class='addnumner_line'>
+    锁号
+    <input class='input' type='number' value='{{internal}}' placeholder="请输入锁号" focus="{{!internal}}"          bindblur="bindblur" ></input>
+  </view>
+  <view class='addnumner_line'>
+    密码
+    <input class='input' type="text" password='{{ispassword}}' placeholder="请输入密码"  bindblur="bindblur1">
+     <text  catchtap='isopen' class="{{yan?'yan iconfont icon-open-eyes':'yan iconfont icon-yanjing'}}"></text>
+    </input>
+  </view>
+  <view class='addnumner_line'>
+    备注名称
+    <input class='input' type='text' value='{{locked}}' placeholder="请输入锁的名称"  bindinput="bindinput"></input>
+  </view>
+  <button class='bnt' bindtap='addnumber'>立即绑定</button>
+</view>

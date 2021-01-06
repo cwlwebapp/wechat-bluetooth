@@ -1,0 +1,19 @@
+<!--pages/manage/transfer/transfer.wxml-->
+<view class='transfer'>
+  <view class='transfer_head'>
+    <text class='iconfont icon-youkuohao'>转让给别人</text>
+  </view>
+  <block wx:for="{{transfer}}" wx:key="{{index}}">
+    <view class='transfer_content' bindtap='translate'>
+      <view class='transfer_content_left'>
+        <image class='transfer_content_img'></image>
+        <view class='transfer_content_title'>
+          子不语
+          <view>13265472403</view>
+        </view>
+      </view>
+      <view class='transfer_content_right'>转让</view>
+    </view>
+  </block>
+
+</view>

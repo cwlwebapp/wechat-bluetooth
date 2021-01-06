@@ -1,0 +1,25 @@
+/* pages/manage/share/share.wxss */
+
+.share {
+  height: 113rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  padding: 0 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.share_bnt {
+  width: 339rpx;
+  height: 65rpx;
+  background-color: #30324f;
+  border-radius: 7rpx;
+  border: solid 3rpx #aaa;
+  color: #aaa;
+  font-size: 36rpx;
+  line-height: 65rpx;
+  margin-top: 70rpx;
+}

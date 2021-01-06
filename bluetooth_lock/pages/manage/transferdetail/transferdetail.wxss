@@ -1,0 +1,57 @@
+/* pages/manage/transferdetail/transferdetail.wxss */
+
+.transferdetail {
+  height: 463px;
+  padding: 0 30rpx 0 44rpx;
+}
+
+.transferdetail_phone {
+  display: flex;
+  align-items: center;
+  padding-top: 66rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.phone {
+  width: 547rpx;
+  height: 55rpx;
+  background-color: #30324f;
+  border-radius: 2rpx;
+  border: solid 2rpx #aaa;
+  margin-left: 20rpx;
+  box-sizing: border-box;
+  padding-left: 13rpx;
+}
+
+.code {
+  width: 293rpx;
+  height: 54rpx;
+  background-color: #30324f;
+  border-radius: 2rpx;
+  border: solid 2rpx #aaa;
+  margin-left: 20rpx;
+  padding-left: 13rpx;
+}
+
+.getcode {
+  width: 206rpx;
+  height: 54rpx;
+  background-color: #30324f;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  margin-left: 30rpx;
+  line-height: 54rpx;
+  text-align: center;
+}
+
+.confir {
+  width: 538rpx;
+  height: 87rpx;
+  background-color: #30324f;
+  border-radius: 10rpx;
+  color: #aaa;
+  line-height: 87rpx;
+  font-size: 30rpx;
+  margin-top: 156rpx;
+}

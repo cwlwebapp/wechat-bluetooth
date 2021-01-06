@@ -1,0 +1,17 @@
+<!--pages/manage/jurisdiction/jurisdiction.wxml-->
+<view class='jurisdiction' bindtap='opentime'>
+  <text>蓝牙开锁</text>
+  <text>长期</text>
+</view>
+<view class='jurisdiction' bindtap='fingerprint'>
+  <text>指纹管理</text>
+  <text class='iconfont icon-youkuohao'></text>
+</view>
+<view class='jurisdiction' bindtap='iC'>
+  <text>IC卡管理</text>
+  <text class='iconfont icon-youkuohao'></text>
+</view>
+<view class='jurisdiction' bindtap='password'>
+  <text>键盘密码</text>
+  <text class='iconfont icon-youkuohao'></text>
+</view>

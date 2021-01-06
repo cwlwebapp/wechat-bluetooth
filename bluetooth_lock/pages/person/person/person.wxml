@@ -1,0 +1,44 @@
+<!--pages/person/person/person.wxml-->
+<view class='person'>
+  <view class='person_head'>
+    <image class='head_log' src='{{profile.headimg}}'></image>
+    <view class='head_title'>
+      <text>{{profile.name}}</text>
+      <text class='head_title_right' bindtap='profile'>个人资料</text>
+    </view>
+    <text class='head_num'>{{profile.phone}}</text>
+  </view>
+  <view class='person_content'>
+  <view class='person_line' bindtap='management'>
+      <text class='iconfont icon-shezhi message'>账号管理</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+    <view class='person_line' bindtap='myNews'>
+      <text class='iconfont icon-message message'>我的消息</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+    
+    <view class='person_line' bindtap='instructions'>
+      <text class='iconfont icon-ico_shiyongshuoming message'>使用说明</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+   
+    <view class='person_line'>
+      <text class='iconfont icon-xieyi message' bindtap='service'>服务协议</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+     <view class='person_line' bindtap='feedback'>
+      <text class='iconfont icon-yijianfankui-copy message'>意见反馈</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+       <view class='person_line' bindtap='update'>
+      <text class='iconfont icon-shengji1 message'>硬件升级</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+       <view class='person_line' bindtap='update'>
+      <text class='iconfont icon-shengji message'>app升级</text>
+      <text class='iconfont icon-youkuohao'></text>
+    </view>
+  </view>
+
+</view>

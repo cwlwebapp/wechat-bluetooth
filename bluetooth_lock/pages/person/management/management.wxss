@@ -1,0 +1,13 @@
+/* pages/person/management/management.wxss */
+
+.change {
+  padding: 0 40rpx;
+  height: 120rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}

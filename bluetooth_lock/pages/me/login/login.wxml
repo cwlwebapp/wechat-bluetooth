@@ -1,0 +1,25 @@
+<!--  pages/me/login/login.wxss -->
+
+<view class="login">
+  <view class='login_content'>
+    手机号:
+    <input class='login_place' type='number' bindblur="bindblur" maxlength="11" focus placeholder='请输入手机号!'></input>
+  </view>
+  <view class='login_content'>
+    密码号:
+    <input class='login_place' type='text' password="{{eye}}" bindinput="bindinput" minlength="6" maxlength="16" placeholder='6-16位密码'>
+    <text class="{{eye?'eye iconfont icon-yanjing':'eye iconfont icon-open-eyes'}}" catchtap='isopeneye'></text>
+    </input>
+  </view>
+  <view class='login_bnt' bindtap='longin'>登录</view>
+  <view class='login_foot'>
+    <text data-index='1' bindtap='register'>去注册</text>
+    <text data-index='2' bindtap='register'>忘记密码?</text>
+  </view>
+  <view class='login_weixin'>
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class='weixin'>
+    <text class='iconfont icon-weixin'></text></button>
+    <view class='login_weixin_middle'>微信登录</view>
+    <view class='login_weixin_foot' bindtap='agreement'>登录注册以代表您同意</view>
+  </view>
+</view>

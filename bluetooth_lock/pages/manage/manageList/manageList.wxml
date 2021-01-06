@@ -1,0 +1,44 @@
+<!--pages/manage/manageList/manageList.wxml-->
+<view class='manageList'>
+  <block wx:for="{{manageList}}" wx:key="{{index}}">
+    <view class='manageList_line' data-index='{{index}}' bindtap='addname'>
+      <text class='manageList_line_left'>{{item.title}}</text>
+      <text class='manageList_line_left iconfont icon-youkuohao'>{{item.destr}}</text>
+    </view>
+  </block>
+
+  <!-- <view class='manageList_line' data-index='1' bindtap='addname'>
+      <text class='manageList_line_left'>用户管理</text>
+      <text class='manageList_line_left iconfont icon-youkuohao'></text>
+    </view>
+    <view  class='manageList_line' data-index='2' bindtap='addname'>
+      <text class='manageList_line_left'>分享钥匙</text>
+      <text class='manageList_line_left iconfont icon-youkuohao'></text>
+    </view>
+    <view class='manageList_line' data-index='3' bindtap='addname'>
+      <text class='manageList_line_left'>权限转让</text>
+      <text class='manageList_line_left iconfont icon-youkuohao'></text>
+    </view>
+    <view class='manageList_line' data-index='4' bindtap='addname'>
+      <text class='manageList_line_left'>管理离线密码</text>
+      <text class='manageList_line_left iconfont icon-youkuohao'></text>
+    </view>
+      <view class='manageList_line' data-index='5' bindtap='addname'>
+      <text class='manageList_line_left'>解除绑定</text>
+      <text class='manageList_line_left iconfont icon-youkuohao'></text>
+    </view> -->
+  <!-- 弹框 -->
+  <view class='toast' wx:if="{{istoast}}">
+    <!-- <view class='toast_content'>
+      <text>提示</text>
+      <input class='toast_input'  type='text' bindinput="bindinput" placeholder="请输入昵称!"></input>
+      <view class='toast_bnt'>
+        <text class='toast_but' bindtap="cancal">取消</text>
+        <text class='toast_but' bindtap='confirm'>确定</text>
+      </view>
+    </view> -->
+    <modal title="修改锁的备注" confirm-text="确定" cancel-text="取消" bindcancel="cancal" bindconfirm="confirm">
+      <input type='text' placeholder="请输入锁的备注!" bindinput="bindinput" auto-focus/>
+    </modal>
+  </view>
+</view>

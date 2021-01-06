@@ -1,0 +1,4 @@
+<!--pages/person/instructions/instructions.wxml-->
+<view class='instructions'>
+  使用说明
+</view>

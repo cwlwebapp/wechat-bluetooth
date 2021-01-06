@@ -1,0 +1,90 @@
+/* pages/person/profile/profile.wxss */
+
+.profile {
+  font-size: 30rpx;
+}
+
+.profile_head {
+  height: 120rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 38rpx 0 39rpx;
+  margin-bottom: 24rpx;
+}
+
+.head {
+  height: 160rpx;
+}
+
+.profile_head_right {
+  display: flex;
+  align-items: center;
+}
+
+.profile_img {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.icon-youkuohao {
+  padding-left: 24rpx;
+}
+
+
+
+/* 弹框 */
+
+.toast {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toast_content {
+  width: 520rpx;
+  height: 340rpx;
+  background-color: #f7f7f7;
+  border-radius: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #333;
+  font-size: 36rpx;
+  box-sizing: border-box;
+  padding: 10rpx 0;
+}
+
+.toast_input {
+  width: 292rpx;
+  height: 50rpx;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  font-size: 30rpx;
+  padding-left: 15rpx;
+}
+
+.toast_bnt {
+  width: 292rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+}
+
+.toast_but {
+  border-radius: 5rpx 5rpx 5rpx 5rpx;
+  border: solid 2rpx #aaa;
+  padding: 10rpx 24rpx;
+  font-size: 30rpx;
+}

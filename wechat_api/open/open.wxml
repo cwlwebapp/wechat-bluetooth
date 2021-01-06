@@ -1,0 +1,4 @@
+<!--open/open.wxml-->
+<!-- 初始化 -->
+<button bindtap='openBluetoothAdapter'>初始化</button>
+<button bindtap='onBluetoothAdapterStateChange'>蓝牙变化</button>

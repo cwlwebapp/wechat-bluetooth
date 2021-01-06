@@ -1,0 +1,17 @@
+<!--pages/person/feedback/feedback.wxml-->
+<view class='feedback'>
+  <view class='feedback_head'>
+    <textarea class='feedback_input' placeholder='请输入您的意见和建议!'></textarea>
+  </view>
+  <view class='feedback_content'>
+    <view class='feedback_content_title'>添加图片(提供问题截图)</view>
+    <view class='addimage'>
+      <block wx:for="{{headimg}}" wx:key="{{index}}">
+      <image class='feedback_content_addimage' src='{{item}}'></image>
+      </block>
+      <text class='feedback_content_image iconfont icon-tianjia' bindtap='addimage'></text>
+    </view>
+
+  </view>
+  <view class='feedback_bnt' bindtap='confirm'>提交</view>
+</view>

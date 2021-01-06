@@ -1,0 +1,26 @@
+<!--pages/me/lanyalist/layalist.wxml-->
+<wxs module="utils">
+  module.exports.max = function(n1, n2) {
+    return Math.max(n1, n2)
+  }
+  module.exports.len = function(arr) {
+    arr = arr || []
+    return arr.length
+  }
+</wxs>
+<view class='lanyalist'>
+  <view wx:if="{{false}}" class='loading'>
+    <text class='weui-loading'></text>
+    <!-- <text class='open-loading'></text> -->
+  </view>
+  <block wx:for="{{lanyanlist}}" wx:key="index">
+    <view class="template {{item.active?'active':''}}" data-index="{{index}}" bindtap='addsuo'>
+      <view class='template_left'>
+        <view>{{item.name}}</view>{{item.deviceId}}</view>
+      <text class='template_right'>信号{{utils.max(0, item.RSSI + 100)}}%</text>
+    </view>
+  </block>
+  <block wx:if="{{isbnt}}">
+    <view  class='lanyalist_bnt' bindtap='updata'>刷新</view>
+  </block>
+</view>

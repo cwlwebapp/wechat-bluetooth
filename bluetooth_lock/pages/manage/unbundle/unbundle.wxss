@@ -1,0 +1,123 @@
+/* pages/manage/unbundle/unbundle.wxss */
+
+/* 开锁部分 */
+
+.me_head {
+  height: 786rpx;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  z-index: 1;
+  background-color: #22243b;
+  /* background: #f00; */
+}
+
+/* .me_head_icon {
+  font-size: 66rpx;
+  position: absolute;
+  right: 37rpx;
+  top: 29rpx;
+} */
+
+.me_head_bnt {
+  margin-top: 100rpx;
+  width: 226rpx;
+  height: 226rpx;
+  border-radius: 50%;
+  background-color: rgb(88, 89, 114);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.me_head_suo {
+  font-size: 90rpx;
+  color: #aaa;
+  /* background: #f00; */
+}
+
+.me_head_name {
+  font-size: 30rpx;
+  padding-top: 27rpx;
+  /* background: #f00; */
+}
+
+.me_head_suoName {
+  font-size: 30rpx;
+  padding-top: 35rpx;
+}
+
+.me_head_suoNumber {
+  padding-left: 15rpx;
+  font-size: 24rpx;
+}
+
+/* .me_head_title {
+  position: absolute;
+  bottom: 30rpx;
+  left: 30rpx;
+  font-size: 30rpx;
+} */
+
+/* .me_head_title:first-letter {
+  padding-right: 10rpx;
+} */
+
+.icon_image {
+  width: 211rpx;
+  height: 281rpx;
+  position: absolute;
+  bottom: 0;
+}
+.ic_input {
+  width: 100%;
+  height: 281rpx;
+  position: absolute;
+  bottom: 0;
+  /* background: #ff0; */
+}
+
+.ic_input_head {
+  padding-left: 84rpx;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  color: #999;
+  margin-top: 50rpx;
+}
+
+.ic_input_heads::after {
+  content: '好';
+  color: transparent;
+}
+
+.ic_input_place {
+  margin-left: 20rpx;
+  width: 434rpx;
+  height: 55rpx;
+  background-color: #30324f;
+  border-radius: 5rpx;
+  border: solid 2rpx #aaa;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+}
+
+.unbundle_height {
+  height: 909rpx;
+}
+
+.unbundle_bnt {
+  width: 538rpx;
+  height: 75rpx;
+  background-color: #30324f;
+  border-radius: 10rpx;
+  line-height: 75rpx;
+  text-align: center;
+  color: #aaa;
+}

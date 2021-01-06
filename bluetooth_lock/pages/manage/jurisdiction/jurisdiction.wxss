@@ -1,0 +1,13 @@
+/* pages/manage/jurisdiction/jurisdiction.wxss */
+
+.jurisdiction {
+  height: 114rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  padding: 0 36rpx  0 57rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,12 @@
+<!--pages/manage/fingerprintEntry/fingerprintEntry.wxml-->
+<view class='fingerprintEntry'>
+  <view class='fingerprintEntry_content'>
+    <text>根据动画进展提示,进展变化后,抬起手指,用同一个手指继续录入,直到录入完成</text>
+    <image class='zhiwen' src='/images/fingerprint.png'></image>
+    <!-- <text>请录入指纹</text> -->
+    <!-- <text>请再次录入指纹</text> -->
+    <!-- <text>指纹录入完成</text> -->
+    <text>指纹录入超时!</text>
+  </view>
+  <!-- <view class='fingerprintEntry_foot'>重新录入</view> -->
+</view>

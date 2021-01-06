@@ -1,0 +1,11 @@
+<!--pages/manage/share/share.wxml-->
+  <radio-group  bindchange="radioChange">
+    <label wx:for="{{timelist}}"  wx:key="{{index}}" >
+      <view class='share'>
+        <text>{{item.time}}</text>
+        <radio class="radio" color='#aaa' value="{{index}}" disabled="{{disabled}}" checked="{{item.checked}}" />
+      </view>
+    </label>
+  </radio-group>
+  <button wx:if="{{!disabled}}" class='share_bnt' open-type='share'>分享好友</button>
+

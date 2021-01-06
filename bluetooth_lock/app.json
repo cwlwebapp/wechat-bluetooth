@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/me/me/me",
+    "pages/me/lanyalist/lanyalist",
+    "pages/me/login/login",
+    "pages/me/register/register",
+    "pages/me/forgot/forgot",
+    "pages/me/authorized/authorized",
+    "pages/me/addnumner/addnumber",
+    "pages/manage/superfingerprint/superfingerprint",
+    "pages/manage/normanageList/normanageList",
+    "pages/manage/manageList/manageList",
+    "pages/manage/offline/offline",
+    "pages/manage/user/user",
+    "pages/manage/manage/manage",
+    "pages/person/management/management",
+    "pages/person/changePassword/changePassword",
+    "pages/manage/fingerprintEntry/fingerprintEntry",
+    "pages/manage/fingerprint/fingerprint",
+    "pages/manage/iclist/iclist",
+    "pages/manage/jurisdiction/jurisdiction",
+    "pages/manage/unbundle/unbundle",
+    "pages/manage/share/share",
+    "pages/manage/transferdetail/transferdetail",
+    "pages/manage/transfer/transfer",
+    "pages/record/record/record",
+    "pages/record/share_detatil/share_detatil",
+    "pages/person/profile/profile",
+    "pages/person/myNews/myNews",
+    "pages/person/instructions/instructions",
+    "pages/person/service/service",
+    "pages/person/feedback/feedback",
+    "pages/person/upgrading/upgrading",
+    "pages/person/person/person"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#24263d",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的锁",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/me/me/me",
+        "text": "我的锁",
+        "iconPath": "images/tap/Mylocks1.png",
+        "selectedIconPath": "images/tap/Mylocks2.png"
+      },
+      {
+        "pagePath": "pages/manage/manage/manage",
+        "text": "管理锁",
+        "iconPath": "images/tap/Administration1.png",
+        "selectedIconPath": "images/tap/Administration2.png"
+      },
+      {
+        "pagePath": "pages/record/record/record",
+        "text": "使用记录",
+        "iconPath": "images/tap/Historicalrecord1.png",
+        "selectedIconPath": "images/tap/Historicalrecord2.png"
+      },
+      {
+        "pagePath": "pages/person/person/person",
+        "text": "个人中心",
+        "iconPath": "images/tap/PersonalCenter1.png",
+        "selectedIconPath": "images/tap/PersonalCenter2.png"
+      }
+    ],
+    "color": "#3C3D63",
+    "selectedColor": "#AAAAAA",
+    "backgroundColor": "#24263d",
+    "borderStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket": 60000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

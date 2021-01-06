@@ -1,0 +1,47 @@
+/* pages/manage/manage/manage.wxss */
+
+.manage_line {
+  height: 145rpx;
+  background-color: #303250;
+  box-shadow: 0 8rpx 54rpx 0 rgba(9, 12, 51, 0.18);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 47rpx 0 111rpx;
+  margin-bottom: 15rpx;
+}
+
+.manage_icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 111rpx;
+  height: 118rpx;
+  /* background: #f00; */
+}
+
+.manage_left {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.manage_suo {
+  font-size: 52rpx;
+  padding-right: 42rpx;
+}
+
+.manage_left_bottom {
+  font-size: 24rpx;
+}
+
+.manage_bnt {
+  width: 133rpx;
+  height: 48rpx;
+  border-radius: 24rpx;
+  border: solid 2rpx #aaa;
+  text-align: center;
+  line-height: 48rpx;
+  font-size: 30rpx;
+}

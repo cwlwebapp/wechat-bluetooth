@@ -1,0 +1,11 @@
+<!--pages/person/management/management.wxml-->
+<view class='management'>
+  <view class='change' bindtap='change'>
+    修改密码
+    <text class='iconfont icon-youkuohao'></text>
+  </view>
+   <view class='change' bindtap='logout'>
+    退出登录
+    <text class='iconfont icon-youkuohao'></text>
+  </view>
+</view>

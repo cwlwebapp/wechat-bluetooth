@@ -1,0 +1,37 @@
+/* pages/manage/fingerprintEntry/fingerprintEntry.wxss */
+
+.fingerprintEntry {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fingerprintEntry_content {
+  width: 388rpx;
+  height: 799rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.zhiwen {
+  width: 211rpx;
+  height: 281rpx;
+}
+
+.fingerprintEntry_foot {
+  width: 100%;
+  height: 100rpx;
+  background-color: #30324f;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}

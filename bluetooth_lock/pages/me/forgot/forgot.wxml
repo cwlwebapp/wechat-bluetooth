@@ -1,0 +1,13 @@
+<!--pages/me/forgot/forgot.wxml-->
+<view class='forgot'>
+  <view class='forgot_title'>忘记密码</view>
+  <input class='login_input ' placeholder='请输入手机号!'></input>
+  <input class='login_input ' placeholder='请输入验证码!'>
+  <text class='login_input_right' bindtap='getpassword'>获取验证码</text>
+  </input>
+  <input class='login_input ' placeholder='请输入手机号!'></input>
+
+  <input class='login_input ' placeholder='请输入手机号!'></input>
+  <button class='login_bnt' bindtap='login'>提交</button>
+
+</view>

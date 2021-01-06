@@ -1,0 +1,40 @@
+<!--pages/me/register/register.wxml-->
+<view class='changePassword'>
+  <view class='changePassword_line'>
+    <text class='changePassword_left'>手机号<text class='place'>好</text></text>
+    <input class='passward' placeholder='请输入输入手机号!' bindblur="bindblurphone" maxlength='11'></input>
+  </view>
+  <view class='changePassword_line'>
+    <text class='changePassword_left'>验证码<text class='place'>好</text></text>
+    <input class='input' bindblur='bindblurcode' placeholder='请输入验证码!' type='number'></input>
+    <view class='bnt' bindtap='getCode'>{{codeText}}</view>
+  </view>
+  <view class='changePassword_line'>
+    <text wx:if="{{type==1}}" class='changePassword_left'>密码<text class='place'>好好</text></text>
+    <text wx:if="{{type==2}}" class='changePassword_left'>新密码<text class='place'>好</text></text>
+
+    <input bindblur='bindblurPassword' class='passward iconfont icon-yanjing' type='text' password="{{ispassword1}}" placeholder='6-16位密码!'>
+    <text data-index='1' catchtap='isopen' class="{{yan1?'yan iconfont icon-open-eyes':'yan iconfont icon-yanjing'}}"></text>
+    </input>
+
+  </view>
+  <view class='changePassword_line'>
+    <text class='changePassword_left'>确认密码</text>
+    <input  bindblur='bindblurPassword2' class='passward' type='text' password="{{ispassword2}}" placeholder='请再次输入密码!'>
+    <text data-index='2' catchtap='isopen' class="{{yan2?'yan iconfont icon-open-eyes':'yan iconfont icon-yanjing'}}"></text>
+    </input>
+  </view>
+  <block wx:if="{{type==1}}">
+    <view class='changePassword_line'>
+      <text class='changePassword_left'>用户昵称</text>
+      <input class='passward' bindblur='bindblurname' placeholder='请输入用户昵称!'></input>
+    </view>
+  </block>
+  <block wx:if="{{type==1}}">
+    <view class='register_content' bindtap='agreement'>登录注册以代表您同意</view>
+    <button class='confirm' bindtap='confirm'>注册</button>
+  </block>
+  <block wx:if="{{type==2}}">
+    <button class='confirm but' bindtap='confirm'>提交</button>
+  </block>
+</view>
